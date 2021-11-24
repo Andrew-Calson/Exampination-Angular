@@ -1,0 +1,46 @@
+<div class="row">
+    <div *ngFor="let entry of firstpicturelist" class="col-12 col-sm-4 mt-24">
+        <div class="flex justify-center">
+            <img class="w-1/6" src="{{entry.picture}}"/>
+        </div>
+        <p class="p-2 text-center text-xl font-bold">{{entry.name}}</p>
+        <p class="px-4 text-sm text-center">{{entry.description}}</p>
+    </div>
+</div>
+<div class="row mt-64">
+    <div class="col-12 col-sm-4 pt-24">
+        <div *ngFor="let entry of secondpicturelist" class="row py-12">
+            <div class="col-12">
+                <div class="flex justify-center">
+                    <img class="w-1/6" src="{{entry.picture}}"/>
+                </div>
+                <div class="flex justify-center w-full">
+                    <div class="p-2 text-xl font-bold">{{entry.name}}</div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="w-2/3 text-xs text-center" style="color: #8d9195;">{{entry.description}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-sm-4">
+        <div class="flex items-center h-full">
+            <img src="../../../../assets/img/iphone.16ea7812.png"/>
+        </div>
+    </div>
+    <div class="col-12 col-sm-4 pt-24">
+        <div *ngFor="let entry of thirdpicturelist" class="row py-12">
+            <div class="col-12">
+                <div class="flex justify-center">
+                    <img class="w-1/6" src="{{entry.picture}}"/>
+                </div>
+                <div class="flex justify-center w-full">
+                    <div class="p-2 text-xl font-bold">{{entry.name}}</div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="w-2/3 text-xs text-center" style="color: #8d9195;">{{entry.description}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

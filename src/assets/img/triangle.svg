@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg preserveAspectRatio="xMidYMax meet" viewBox="0 0 1600 200" data-height="200" class="svg-separator sep12" style="display: block;">
+    <polygon points="-4,24 800,198 1604,24 1604,204 -4,204 " style="fill: rgb(248, 250, 252);"></polygon>
+    <polygon points="-4,0 800,198 1604,0 1604,11.833 800,198 -4,12 " style="opacity: 1; fill: rgb(149, 165, 166);"></polygon>
+    <polygon points="-4,12 -4,24 800,198 1604,24 1604,11.833 800,198 " style="opacity: 1; fill: rgb(218, 225, 231);"></polygon>
+</svg>
