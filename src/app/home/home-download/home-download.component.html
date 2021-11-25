@@ -2,16 +2,12 @@
     <div>
         <h2 class="text-center font-bold text-2xl">Download Our App</h2>
         <p class="mt-2 text-sm px-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <div class="flex justify-center">
             <div class="flex sm:w-1/2 w-full">
-                <div class="pl-8 pr-2 w-1/2">
-                    <img src="../../../assets/img/app-store.189e324b.svg"/>
-                </div>
-                <div class="pl-2 pr-8 w-1/2">
-                    <img src="../../../assets/img/google-play.b775eda8.svg"/>
+                <div *ngFor="let item of imagedata" class="{{ item.className }}">
+                    <img src="{{ item.image }}" />
                 </div>
             </div>
         </div>
